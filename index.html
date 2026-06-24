@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Guia interativo sobre os impactos da Reforma Tributaria para produtores rurais cooperados."
+    />
+    <title>Reforma Tributaria no Campo | Invent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="scroll-progress" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Inicio">
+        <img src="assets/inventlogo.png" alt="Invent Software" />
+      </a>
+      <nav class="nav-links" aria-label="Navegacao principal">
+        <a href="#visao">Visao</a>
+        <a href="#transicao">Transicao</a>
+        <a href="#produtor">Produtor</a>
+        <a href="#contratos">Contratos</a>
+        <a href="#split">Split payment</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-panel">
+        <div class="hero-copy">
+          <span class="eyebrow">Reforma Tributaria no agronegocio</span>
+          <h1>O novo mapa fiscal do produtor rural cooperado</h1>
+          <p>
+            Uma leitura direta, visual e pratica sobre como IBS, CBS, ato cooperativo,
+            contratos rurais e split payment mudam a rotina de quem produz, compra,
+            vende e planeja no campo.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#produtor">Ver impactos</a>
+            <a class="secondary-action" href="#checklist">Plano de acao</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Resumo numerico da Reforma Tributaria">
+          <div class="tax-orbit">
+            <span>IBS</span>
+            <span>CBS</span>
+            <span>IS</span>
+          </div>
+          <div class="rate-card">
+            <small>Aliquota de referencia</small>
+            <strong>28%</strong>
+            <span>IBS + CBS estimados no novo modelo</span>
+          </div>
+          <div class="signal-card">
+            <strong>1%</strong>
+            <span>fase de teste durante a transicao</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="visao" class="section-panel intro-grid">
+        <div>
+          <span class="eyebrow">Por que muda</span>
+          <h2>Menos labirinto, mais rastreabilidade</h2>
+          <p>
+            A reforma vem de um debate antigo no Brasil: substituir camadas de regras,
+            creditos e excecoes por um sistema mais simples, transparente e comparavel.
+            Para o agro, isso nao elimina a necessidade de planejamento. Pelo contrario:
+            torna essencial entender o fluxo da operacao inteira.
+          </p>
+        </div>
+        <div class="benefit-grid">
+          <article>
+            <span>01</span>
+            <h3>Simplificacao</h3>
+            <p>Tributos sobre consumo passam a seguir uma logica mais uniforme.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Competitividade</h3>
+            <p>Custos deixam de depender tanto de beneficios regionais isolados.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Justica fiscal</h3>
+            <p>A tributacao tende a se aproximar da capacidade economica real.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Controle</h3>
+            <p>Dados, documentos e contratos ganham peso na rotina tributaria.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-panel logistics">
+        <div class="section-heading">
+          <span class="eyebrow">Cadeia operacional</span>
+          <h2>A geografia fiscal perde protagonismo</h2>
+        </div>
+        <div class="route-map">
+          <div class="map-line"></div>
+          <article>
+            <strong>Origem</strong>
+            <span>fornecedores e propriedades</span>
+          </article>
+          <article>
+            <strong>Fluxo</strong>
+            <span>rotas, armazenagem e transferencia</span>
+          </article>
+          <article>
+            <strong>Destino</strong>
+            <span>venda, entrega e documentacao</span>
+          </article>
+        </div>
+        <p>
+          A escolha de fornecedores, armazens e centros de distribuicao tende a depender
+          mais de eficiencia logistica, custo total, prazo e controle documental do que
+          de vantagens fiscais locais.
+        </p>
+      </section>
+
+      <section id="transicao" class="section-panel">
+        <div class="section-heading">
+          <span class="eyebrow">Linha do tempo</span>
+          <h2>Transicao em camadas</h2>
+        </div>
+        <div class="timeline" data-active-step="0">
+          <button class="timeline-step is-active" type="button">
+            <span>01</span>
+            Notas tecnicas e testes
+          </button>
+          <button class="timeline-step" type="button">
+            <span>02</span>
+            Aliquota inicial de 1%
+          </button>
+          <button class="timeline-step" type="button">
+            <span>03</span>
+            Fim de PIS e Cofins
+          </button>
+          <button class="timeline-step" type="button">
+            <span>04</span>
+            Encerramento gradual de ICMS e ISS
+          </button>
+          <button class="timeline-step" type="button">
+            <span>05</span>
+            IBS e CBS em plena operacao
+          </button>
+        </div>
+        <div class="timeline-copy" aria-live="polite">
+          <h3>Comece pelos cadastros e documentos</h3>
+          <p>
+            A preparacao inicial passa por revisar dados fiscais, parametrizacoes,
+            classificacoes de produtos e fluxos de emissao de notas.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-panel reduction-zone">
+        <div class="section-heading">
+          <span class="eyebrow">Tratamentos diferenciados</span>
+          <h2>Reducoes mudam o custo final</h2>
+        </div>
+        <div class="reduction-cards">
+          <article>
+            <strong>100%</strong>
+            <span>possivel aliquota zero em hipoteses especificas</span>
+          </article>
+          <article>
+            <strong>60%</strong>
+            <span>desconto relevante para itens favorecidos pela lei</span>
+          </article>
+          <article>
+            <strong>30%</strong>
+            <span>reducoes parciais em operacoes enquadradas</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-panel cooperative">
+        <div>
+          <span class="eyebrow">Ato cooperativo</span>
+          <h2>O regime especifico preserva a logica cooperada</h2>
+          <p>
+            A Lei Complementar 214/2025 abriu caminho para um regime proprio de IBS e CBS
+            para sociedades cooperativas. Em operacoes enquadradas como ato cooperativo,
+            a incidencia pode ser reduzida a zero, protegendo a relacao entre associado
+            e cooperativa.
+          </p>
+        </div>
+        <div class="crop-stack">
+          <article>
+            <span>Cafe</span>
+            <p>Pode ter tratamento favorecido quando enquadrado no ato cooperativo.</p>
+          </article>
+          <article>
+            <span>Soja</span>
+            <p>A venda do cooperado para sua cooperativa merece revisao de enquadramento.</p>
+          </article>
+          <article>
+            <span>Milho</span>
+            <p>Operacoes recorrentes devem estar bem documentadas e classificadas.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="produtor" class="section-panel producer-section">
+        <div class="section-heading">
+          <span class="eyebrow">Perfil do produtor</span>
+          <h2>O impacto depende do enquadramento</h2>
+        </div>
+        <div class="profile-switcher" role="tablist" aria-label="Perfis de produtor rural">
+          <button class="profile-tab is-active" type="button" data-profile="nao-contribuinte">
+            Nao contribuinte
+          </button>
+          <button class="profile-tab" type="button" data-profile="contribuinte">
+            Acima de R$ 3,6 mi
+          </button>
+        </div>
+        <div class="profile-card" id="profile-card">
+          <span class="profile-label">Regime diferenciado</span>
+          <h3>Credito presumido pode ganhar relevancia</h3>
+          <p>
+            Para aquisicoes de produtor rural nao contribuinte, a legislacao preve credito
+            presumido ao adquirente. O percentual ainda precisa de definicao operacional.
+          </p>
+        </div>
+      </section>
+
+      <section id="contratos" class="section-panel contracts">
+        <div>
+          <span class="eyebrow">Contratos agrarios</span>
+          <h2>Arrendamento, locacao e cessao entram no radar</h2>
+          <p>
+            Contratos rurais passam a exigir leitura tributaria mais objetiva. Em locacao,
+            cessao onerosa e arrendamento de imoveis rurais, pode haver reducao de 70%
+            da aliquota, conforme o enquadramento legal aplicavel.
+          </p>
+        </div>
+        <div class="responsibility-card">
+          <small>Responsavel pelo recolhimento</small>
+          <strong>Proprietario do imovel</strong>
+          <p>
+            A regra pode alcancar pessoa juridica e pessoa fisica, inclusive em cenarios
+            com varios imoveis alugados e renda anual superior a R$ 240 mil.
+          </p>
+        </div>
+      </section>
+
+      <section id="split" class="section-panel split-section">
+        <div class="section-heading">
+          <span class="eyebrow">Split payment</span>
+          <h2>O imposto pode ser separado no pagamento</h2>
+        </div>
+        <div class="split-simulator">
+          <div class="slider-block">
+            <label for="amount">Valor da operacao</label>
+            <input id="amount" type="range" min="100" max="10000" step="100" value="1000" />
+            <output id="amount-output" for="amount">R$ 1.000,00</output>
+          </div>
+          <div class="split-results">
+            <article>
+              <span>Liquido ao fornecedor</span>
+              <strong id="net-value">R$ 720,00</strong>
+            </article>
+            <article>
+              <span>CBS estimada</span>
+              <strong id="cbs-value">R$ 93,00</strong>
+            </article>
+            <article>
+              <span>IBS estimado</span>
+              <strong id="ibs-value">R$ 187,00</strong>
+            </article>
+          </div>
+        </div>
+        <p>
+          Na pratica, o mecanismo divide o pagamento: uma parte segue ao fornecedor e
+          outra e direcionada ao recolhimento tributario, reduzindo atrasos e falhas de
+          repasse.
+        </p>
+      </section>
+
+      <section id="checklist" class="section-panel checklist-section">
+        <div class="section-heading">
+          <span class="eyebrow">Plano de acao</span>
+          <h2>Como se preparar sem esperar a ultima hora</h2>
+        </div>
+        <div class="checklist">
+          <label><input type="checkbox" /> Revisar cadastros fiscais de produtos, clientes e fornecedores.</label>
+          <label><input type="checkbox" /> Mapear rotas, armazens, centros de distribuicao e pontos de entrega.</label>
+          <label><input type="checkbox" /> Separar operacoes cooperativas das operacoes comuns.</label>
+          <label><input type="checkbox" /> Reavaliar contratos de arrendamento, locacao e cessao onerosa.</label>
+          <label><input type="checkbox" /> Preparar sistemas para notas tecnicas, novos codigos e apuracoes.</label>
+          <label><input type="checkbox" /> Simular precos com IBS, CBS, reducoes e creditos presumidos.</label>
+        </div>
+      </section>
+
+      <section class="closing section-panel">
+        <span class="eyebrow">Mensagem final</span>
+        <h2>Quem entende a transicao antes, negocia melhor depois</h2>
+        <p>
+          A Reforma Tributaria traz ajustes relevantes para o agro. Com planejamento,
+          dados confiaveis e revisao de processos, a mudanca pode virar uma oportunidade
+          de ganhar previsibilidade, eficiencia e seguranca.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <img src="assets/inventlogo.png" alt="Invent Software" />
+      <p>
+        Conteudo educativo baseado na apresentacao
+        "Apresentacao Reforma-Tributaria - Cooperados.pptx". Este material nao substitui
+        analise contabil, fiscal ou juridica especializada.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
