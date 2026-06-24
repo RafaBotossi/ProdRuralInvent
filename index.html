@@ -144,31 +144,63 @@
         <div class="timeline" data-active-step="0">
           <button class="timeline-step is-active" type="button">
             <span>01</span>
+            <em>2025</em>
             Notas técnicas e testes
           </button>
           <button class="timeline-step" type="button">
             <span>02</span>
+            <em>2026</em>
             Alíquota inicial de 1%
           </button>
           <button class="timeline-step" type="button">
             <span>03</span>
+            <em>2027</em>
             Fim de PIS e Cofins
           </button>
           <button class="timeline-step" type="button">
             <span>04</span>
+            <em>2028 a 2032</em>
             Encerramento gradual de ICMS e ISS
           </button>
           <button class="timeline-step" type="button">
             <span>05</span>
+            <em>2033</em>
             IBS e CBS em plena operação
           </button>
         </div>
         <div class="timeline-copy" aria-live="polite">
           <h3>Comece pelos cadastros e documentos</h3>
           <p>
-            A preparação inicial passa por revisar dados fiscais, parametrizações,
-            classificações de produtos e fluxos de emissão de notas.
+            O cronograma apresentado parte de 2025, com preparação normativa e técnica.
+            A rotina deve começar por cadastros fiscais, parametrizações, classificações
+            de produtos e fluxos de emissão de notas.
           </p>
+        </div>
+        <div class="transition-years" aria-label="Cronograma de implantação">
+          <article>
+            <strong>2025</strong>
+            <span>primeiras notas técnicas e preparação dos sistemas</span>
+          </article>
+          <article>
+            <strong>2026</strong>
+            <span>período de testes e alíquota experimental de 1%</span>
+          </article>
+          <article>
+            <strong>2027</strong>
+            <span>extinção do PIS e da Cofins no desenho apresentado</span>
+          </article>
+          <article>
+            <strong>2028</strong>
+            <span>ajustes de convivência antes da virada estadual e municipal</span>
+          </article>
+          <article>
+            <strong>2029-2032</strong>
+            <span>transição entre IBS/CBS e ICMS/ISS</span>
+          </article>
+          <article>
+            <strong>2033</strong>
+            <span>IBS e CBS operando em 100% do novo modelo</span>
+          </article>
         </div>
       </section>
 
@@ -204,19 +236,42 @@
           <h2>O regime específico preserva a lógica cooperada</h2>
           <p>
             A Lei Complementar 214/2025 institui IBS, CBS e IS, altera a legislação
-            tributária e abre caminho para um regime próprio de IBS e CBS para sociedades
-            cooperativas. Pelos artigos 271 e 272, a cooperativa pode optar pelo regime
-            específico. Nas operações enquadradas como ato cooperativo, as alíquotas de
-            IBS e CBS podem ser reduzidas a zero, preservando a relação entre associado
-            e cooperativa.
+            tributária e traz um avanço importante para cooperativas: a possibilidade
+            de optar por um regime específico de IBS e CBS, conforme os artigos 271 e
+            272. A ideia é permitir que o modelo cooperativo continue funcionando sem
+            transformar a relação entre associado e cooperativa em uma tributação comum.
           </p>
           <p>
             A proteção do ato cooperativo também se conecta ao art. 156-A, § 6º, III,
             da Constituição Federal, com foco em segurança jurídica e sustentação de um
-            modelo inclusivo para cooperados e comunidades.
+            modelo inclusivo para cooperados e comunidades. Na apresentação, esse ponto
+            aparece como prioridade do movimento cooperativista desde a retomada das
+            discussões da Reforma no Congresso Nacional.
           </p>
+          <div class="cooperative-points">
+            <article>
+              <span>Regime específico</span>
+              <p>A cooperativa poderá escolher um tratamento próprio para IBS e CBS, em vez de seguir apenas a regra geral.</p>
+            </article>
+            <article>
+              <span>Alíquota zero</span>
+              <p>Operações do associado com a cooperativa podem ter IBS e CBS reduzidos a zero quando configurarem ato cooperativo.</p>
+            </article>
+            <article>
+              <span>Segurança jurídica</span>
+              <p>O objetivo é dar previsibilidade à relação cooperada e preservar o papel econômico e social do cooperativismo.</p>
+            </article>
+          </div>
         </div>
         <div class="crop-stack">
+          <article class="cooperative-rule">
+            <span>Como ler a regra</span>
+            <p>
+              O ponto central não é apenas o produto vendido, mas o enquadramento da
+              operação como ato cooperativo, a documentação correta e a participação do
+              produtor na cooperativa.
+            </p>
+          </article>
           <article>
             <span>Café</span>
             <p>
@@ -296,44 +351,73 @@
       <section id="split" class="section-panel split-section">
         <div class="section-heading">
           <span class="eyebrow">Split payment</span>
-          <h2>O imposto pode ser separado no pagamento</h2>
+          <h2>O tributo é separado no ato do pagamento</h2>
+        </div>
+        <div class="split-intro">
+          <article>
+            <span>O que é</span>
+            <p>
+              No contexto da EC 132/2023, o split payment é a retenção e o repasse
+              automático dos tributos no momento em que uma compra ou serviço é pago.
+            </p>
+          </article>
+          <article>
+            <span>Para que serve</span>
+            <p>
+              A lógica é evitar sonegação, simplificar o recolhimento e aumentar a
+              eficiência da arrecadação, sem depender do vendedor para repassar o imposto.
+            </p>
+          </article>
         </div>
         <div class="split-simulator">
           <div class="slider-block">
             <label for="amount">Valor da operação</label>
             <input id="amount" type="range" min="100" max="10000" step="100" value="1000" />
             <output id="amount-output" for="amount">R$ 1.000,00</output>
+            <p>
+              Use o controle para ver como o exemplo do slide se comporta em outros
+              valores, mantendo a mesma proporção de CBS e IBS.
+            </p>
           </div>
           <div class="split-results">
             <article>
-              <span>Líquido ao fornecedor</span>
+              <span>Fornecedor recebe</span>
               <strong id="net-value">R$ 720,00</strong>
+              <small>Líquido de IBS e CBS</small>
             </article>
             <article>
-              <span>CBS estimada</span>
+              <span>Vai para CBS</span>
               <strong id="cbs-value">R$ 93,00</strong>
+              <small>Repasse ao governo federal</small>
             </article>
             <article>
-              <span>IBS estimado</span>
+              <span>Vai para IBS</span>
               <strong id="ibs-value">R$ 187,00</strong>
+              <small>Repasse à CG IBS</small>
             </article>
           </div>
         </div>
-        <p>
-          Na prática, o mecanismo divide o pagamento: uma parte segue ao fornecedor e
-          outra é direcionada ao recolhimento tributário, reduzindo atrasos e falhas de
-          repasse.
-        </p>
-        <div class="payment-flow" aria-label="Fluxo do split payment">
-          <span>Fornecedor</span>
-          <span>Adquirente</span>
-          <span>Boleto</span>
-          <span>Pix</span>
-          <span>TED</span>
-          <span>TEF</span>
-          <span>Cartão</span>
-          <span>CG IBS</span>
-          <span>RFB</span>
+        <div class="split-flow" aria-label="Fluxo do split payment">
+          <article>
+            <span>01</span>
+            <strong>Adquirente paga</strong>
+            <p>A compra ou serviço é quitado por um arranjo de pagamento.</p>
+          </article>
+          <article class="flow-payment">
+            <span>02</span>
+            <strong>Arranjo processa</strong>
+            <p>Boleto, Pix, TED, TEF e cartão passam a ser pontos de separação do valor.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <strong>Fornecedor recebe</strong>
+            <p>A parte líquida segue ao vendedor, já descontada de IBS e CBS.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <strong>Tributos seguem ao fisco</strong>
+            <p>CBS vai à RFB e IBS segue para a CG IBS, conforme o fluxo do slide.</p>
+          </article>
         </div>
       </section>
 
@@ -371,7 +455,9 @@
       <p>
         Conteúdo educativo baseado na apresentação da Coopercitrus
         "Apresentação Reforma-Tributária - Cooperados.pptx". Este material não substitui
-        análise contábil, fiscal ou jurídica especializada.
+        análise contábil, fiscal ou jurídica especializada. Material criado com apoio de IA;
+        todas as informações devem ser conferidas na fonte original e validadas antes de
+        qualquer tomada de decisão.
       </p>
       <a
         class="download-link"

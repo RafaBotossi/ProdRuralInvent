@@ -3,27 +3,27 @@ const glow = document.querySelector(".cursor-glow");
 
 const timelineContent = [
   {
-    title: "Comece pelos cadastros e documentos",
+    title: "2025: preparação normativa e técnica",
     text:
-      "A preparação inicial passa por revisar dados fiscais, parametrizações, classificações de produtos e fluxos de emissão de notas.",
+      "O cronograma apresentado começa com primeiras notas técnicas e preparação dos sistemas. É a hora de revisar cadastros, parametrizações, classificações de produtos e fluxos de emissão de notas.",
   },
   {
-    title: "A fase de 1% serve para aprender com dados reais",
+    title: "2026: testes com alíquota experimental",
     text:
-      "Mesmo com carga reduzida, esse período ajuda a validar sistemas, relatórios e conciliações antes da operação completa.",
+      "A fase de testes com alíquota de 1% ajuda a validar sistemas, relatórios e conciliações antes de a operação ganhar impacto mais relevante no caixa.",
   },
   {
-    title: "PIS e Cofins saem de cena",
+    title: "2027: PIS e Cofins saem de cena",
     text:
       "A substituição exige revisar precificação, créditos, documentos fiscais e regras internas que hoje dependem desses tributos.",
   },
   {
-    title: "ICMS e ISS perdem espaço gradualmente",
+    title: "2028 a 2032: convivência e virada gradual",
     text:
-      "Durante a convivência entre regimes, será importante acompanhar impactos por produto, localidade e tipo de operação, inclusive no último ano de vigência dos impostos estaduais e municipais.",
+      "O período concentra ajustes de convivência e a transição entre IBS/CBS e ICMS/ISS. Será importante acompanhar impactos por produto, localidade e tipo de operação.",
   },
   {
-    title: "IBS e CBS chegam a 100% do novo modelo",
+    title: "2033: IBS e CBS chegam a 100% do novo modelo",
     text:
       "No modelo final, a gestão fiscal fica mais conectada ao destino, ao documento e ao fluxo financeiro da operação.",
   },
