@@ -5,42 +5,42 @@ const timelineContent = [
   {
     title: "Comece pelos cadastros e documentos",
     text:
-      "A preparacao inicial passa por revisar dados fiscais, parametrizacoes, classificacoes de produtos e fluxos de emissao de notas.",
+      "A preparação inicial passa por revisar dados fiscais, parametrizações, classificações de produtos e fluxos de emissão de notas.",
   },
   {
     title: "A fase de 1% serve para aprender com dados reais",
     text:
-      "Mesmo com carga reduzida, esse periodo ajuda a validar sistemas, relatorios e conciliacoes antes da operacao completa.",
+      "Mesmo com carga reduzida, esse período ajuda a validar sistemas, relatórios e conciliações antes da operação completa.",
   },
   {
     title: "PIS e Cofins saem de cena",
     text:
-      "A substituicao exige revisar precificacao, creditos, documentos fiscais e regras internas que hoje dependem desses tributos.",
+      "A substituição exige revisar precificação, créditos, documentos fiscais e regras internas que hoje dependem desses tributos.",
   },
   {
-    title: "ICMS e ISS perdem espaco gradualmente",
+    title: "ICMS e ISS perdem espaço gradualmente",
     text:
-      "Durante a convivencia entre regimes, sera importante acompanhar impactos por produto, localidade e tipo de operacao.",
+      "Durante a convivência entre regimes, será importante acompanhar impactos por produto, localidade e tipo de operação, inclusive no último ano de vigência dos impostos estaduais e municipais.",
   },
   {
-    title: "IBS e CBS passam a comandar o consumo",
+    title: "IBS e CBS chegam a 100% do novo modelo",
     text:
-      "No modelo final, a gestao fiscal fica mais conectada ao destino, ao documento e ao fluxo financeiro da operacao.",
+      "No modelo final, a gestão fiscal fica mais conectada ao destino, ao documento e ao fluxo financeiro da operação.",
   },
 ];
 
 const profileContent = {
   "nao-contribuinte": {
     label: "Regime diferenciado",
-    title: "Credito presumido pode ganhar relevancia",
+    title: "Crédito presumido pode ganhar relevância",
     text:
-      "Para aquisicoes de produtor rural nao contribuinte, a legislacao preve credito presumido ao adquirente. O percentual ainda precisa de definicao operacional.",
+      "Para aquisições de produtor rural não contribuinte, a legislação prevê crédito presumido ao adquirente. O percentual ainda precisa de definição operacional.",
   },
   contribuinte: {
-    label: "Faturamento acima de R$ 3,6 milhoes",
-    title: "A obrigacao fiscal fica mais parecida com a de empresas",
+    label: "Faturamento acima de R$ 3,6 milhões",
+    title: "A obrigação fiscal fica mais parecida com a de empresas",
     text:
-      "Produtores acima do limite devem acompanhar apuracao, documentos, creditos, controles e impacto no preco com uma rotina fiscal mais estruturada.",
+      "Produtores acima do limite devem acompanhar apuração, documentos, créditos, controles e impacto no preço com uma rotina fiscal mais estruturada.",
   },
 };
 
