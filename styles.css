@@ -836,13 +836,22 @@ output {
 }
 
 .closing {
-  text-align: center;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.45fr);
+  align-items: center;
+  gap: clamp(1.5rem, 5vw, 4rem);
 }
 
-.closing h2,
-.closing p {
-  margin-left: auto;
-  margin-right: auto;
+.closing-copy {
+  text-align: left;
+}
+
+.closing-copy h2 {
+  max-width: 13ch;
+}
+
+.closing-copy p {
+  max-width: 66ch;
 }
 
 .commercial-link {
@@ -856,6 +865,41 @@ output {
   color: #111;
   background: linear-gradient(135deg, var(--invent), var(--invent-2));
   font-weight: 900;
+}
+
+.commercial-director {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 1rem;
+  background: rgba(16, 18, 23, 0.78);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.24);
+}
+
+.commercial-director img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.commercial-director figcaption {
+  padding: 1rem;
+}
+
+.commercial-director strong {
+  display: block;
+  color: var(--text);
+  font-size: 1.15rem;
+}
+
+.commercial-director span {
+  display: block;
+  margin-top: 0.25rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.45;
 }
 
 .site-footer {
@@ -921,6 +965,7 @@ output {
   .intro-grid,
   .cooperative,
   .contracts,
+  .closing,
   .split-intro,
   .split-simulator {
     grid-template-columns: 1fr;
