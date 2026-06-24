@@ -845,6 +845,19 @@ output {
   margin-right: auto;
 }
 
+.commercial-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  margin-top: 1rem;
+  padding: 0.85rem 1.2rem;
+  border-radius: 999px;
+  color: #111;
+  background: linear-gradient(135deg, var(--invent), var(--invent-2));
+  font-weight: 900;
+}
+
 .site-footer {
   display: flex;
   align-items: center;
