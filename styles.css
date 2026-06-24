@@ -166,8 +166,8 @@ p {
 h1 {
   max-width: 12ch;
   margin-bottom: 1.4rem;
-  font-size: clamp(3.3rem, 9vw, 7.3rem);
-  line-height: 0.88;
+  font-size: clamp(2.7rem, 6.5vw, 5.4rem);
+  line-height: 0.95;
   letter-spacing: 0;
 }
 
@@ -194,6 +194,12 @@ p {
 .hero-copy p {
   max-width: 58ch;
   font-size: 1.12rem;
+}
+
+.hero-logo {
+  display: block;
+  width: min(12rem, 58vw);
+  margin-bottom: 1.4rem;
 }
 
 .hero-actions {
@@ -773,7 +779,7 @@ output {
   }
 
   h1 {
-    font-size: clamp(3rem, 18vw, 4.8rem);
+    font-size: clamp(2.55rem, 13vw, 3.9rem);
   }
 
   .hero-actions,
